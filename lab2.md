@@ -22,7 +22,7 @@ graph LR
     end
 
     subgraph Память
-        list1["Список [10, 20, 30]
+        list1["Список [10, 20]
 =Старый ID"]
     end
 
@@ -40,7 +40,7 @@ graph LR
     end
 
     subgraph Память
-        list1["Список [10, 20, 30]<br> Старый ID"]
+        list1["Список [10, 20]<br> Старый ID"]
         list2["Новый список [10, 20, 30]<br>ID: Новый ID"]
     end
 
@@ -102,7 +102,7 @@ graph LR
     end
 
     subgraph Независимый элемент
-        D[Узел D]
+        [Узел indep]
     end
 ```
 
