@@ -21,7 +21,7 @@ graph LR
         second[second]
     end
 
-    subgraph Память (Heap)
+    subgraph Память
         list1["Список [10, 20, 30]
 =Старый ID"]
     end
@@ -39,7 +39,7 @@ graph LR
         second[second]
     end
 
-    subgraph Память (Heap)
+    subgraph Память
         list1["Список [10, 20, 30]<br> Старый ID"]
         list2["Новый список [10, 20, 30]<br>ID: Новый ID"]
     end
