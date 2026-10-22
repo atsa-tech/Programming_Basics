@@ -102,7 +102,7 @@ graph LR
     end
 
     subgraph Независимый элемент
-        [Узел]
+        D[Узел indep]
     end
 ```
 
